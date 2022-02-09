@@ -12,6 +12,7 @@
       <option name="ignoredIdentifiers">
         <list>
           <option value="track.Track.__getitem__" />
+          <option value="read_and_load.load.JSON" />
         </list>
       </option>
     </inspection_tool>

@@ -28,25 +28,34 @@ def album_in_loaded(id):
     return -1
 
 
-# to objects
+# all the tracks loaded as objects
 track_obj_list = []
 for track in trackList:
     artists = []
     for artist in track["artists"]:
         artists.append(Artist(artist["id"], artist["name"]))
-    if album_in_loaded(track["album"]["id"]) != -1:
-        track_obj_list.append(
-            Track(track["id"], album_in_loaded(track["album"]["id"]), artists, track["popularity"]))
-        album_in_loaded(track["album"]["id"]).num_of_songs = album_in_loaded(track["album"]["id"]).num_of_songs + 1
-    else:  # album is unknown
-        loaded_albums.append(Album(track["album"]["id"], track["album"]["name"], track, 1))
+        if album_in_loaded(track["album"]["id"]) != -1:
+            track_obj_list.append(
+                Track(track["id"], album_in_loaded(track["album"]["id"]), artists, track["popularity"]))
+            album_in_loaded(track["album"]["id"]).tracks.append(track)
+            album_in_loaded(track["album"]["id"]).num_of_songs = album_in_loaded(track["album"]["id"]).num_of_songs + 1
+        else:  # album is unknown
+            loaded_albums.append(Album(track["album"]["id"], track["album"]["name"], tracks=[], num_of_songs=1))
+            album_in_loaded(track["album"]["id"]).tracks.append(track)
+
+    # save loaded albums in file
+    with open('data.json', 'w') as file:
+        for album in loaded_albums:
+            json.dump(json.dumps(album.__dict__), file)
 
 
 def main():
-    pp = pprint.PrettyPrinter(depth=6)
-    pp.pprint(trackList[:4])
+    #pp = pprint.PrettyPrinter(depth=6)
+    #pp.pprint(trackList[:4])
     for album in loaded_albums:
-        print(album.__dict__)
+         pp = pprint.PrettyPrinter(depth=6)
+         pp.pprint(album.__dict__)
+        #print(album.__dict__)
 
 
 if __name__ == '__main__':
