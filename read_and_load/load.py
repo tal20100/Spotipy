@@ -56,15 +56,20 @@ for track in trackList:
             loaded_albums.append(Album(album_id, track["album"]["name"], tracks=[], num_of_songs=1))
             album_in_loaded(album_id).tracks.append(track)
 
-    with open('all_artists','w') as file:
+
+    os.chdir('..')
+    os.chdir(os.getcwd()+'/storage')
+    with open('all_artists.json', 'w') as file:
         for artist in loaded_artists:
             json.dump(artist.__dict__, file, indent=4, separators=(',', ': '))
+            # file.write(",")
     file.close()
 
     # save loaded albums in file
     with open('all_albums.json', 'w') as file:
         for album in loaded_albums:
             json.dump(album.__dict__, file, indent=4, separators=(',', ': '))
+            # file.write(",")
     file.close()
 
 
