@@ -19,6 +19,7 @@ for filename in glob.glob(os.path.join(path, '*.json')):  # only process .JSON f
         single_track = json.loads(data)['track']
         if single_track not in trackList:
             trackList.append(single_track)
+currentFile.close()
 
 
 def album_in_loaded(id):
@@ -32,30 +33,35 @@ def album_in_loaded(id):
 track_obj_list = []
 for track in trackList:
     artists = []
+    album_id = track["album"]["id"]
     for artist in track["artists"]:
         artists.append(Artist(artist["id"], artist["name"]))
-        if album_in_loaded(track["album"]["id"]) != -1:
+        if album_in_loaded(album_id) != -1:
             track_obj_list.append(
-                Track(track["id"], album_in_loaded(track["album"]["id"]), artists, track["popularity"]))
-            album_in_loaded(track["album"]["id"]).tracks.append(track)
-            album_in_loaded(track["album"]["id"]).num_of_songs = album_in_loaded(track["album"]["id"]).num_of_songs + 1
+                Track(track["id"], album_in_loaded(album_id), artists, track["popularity"]))
+            album_in_loaded(album_id).tracks.append(track)
+            album_in_loaded(album_id).num_of_songs = album_in_loaded(album_id).num_of_songs + 1
         else:  # album is unknown
-            loaded_albums.append(Album(track["album"]["id"], track["album"]["name"], tracks=[], num_of_songs=1))
-            album_in_loaded(track["album"]["id"]).tracks.append(track)
+            loaded_albums.append(Album(album_id, track["album"]["name"], tracks=[], num_of_songs=1))
+            album_in_loaded(album_id).tracks.append(track)
 
     # save loaded albums in file
-    with open('data.json', 'w') as file:
+    with open('all_albums.json', 'w') as file:
         for album in loaded_albums:
-            json.dump(json.dumps(album.__dict__), file)
+            json.dump(album.__dict__, file, indent=4, separators=(',', ': '))
+    file.close()
 
 
+# loaded_albums is a list of albums that each album is an object and can be transformed into dict
 def main():
-    #pp = pprint.PrettyPrinter(depth=6)
-    #pp.pprint(trackList[:4])
-    for album in loaded_albums:
-         pp = pprint.PrettyPrinter(depth=6)
-         pp.pprint(album.__dict__)
-        #print(album.__dict__)
+    # pp = pprint.PrettyPrinter(depth=6)
+    # pp.pprint(trackList[:4])
+    # for album in loaded_albums:
+    pp = pprint.PrettyPrinter(depth=6)
+    pp.pprint(loaded_albums[1].__dict__)
+
+
+# print(trackList)
 
 
 if __name__ == '__main__':
