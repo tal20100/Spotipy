@@ -11,6 +11,7 @@ from track import Track
 
 trackList = []
 loaded_albums = []  # list of albums
+loaded_artists = []  # list of artists
 # todo: config path
 path = 'C:/Users/Tal/Desktop/Course/Spotipy/songs'
 for filename in glob.glob(os.path.join(path, '*.json')):  # only process .JSON files in folder.
@@ -22,10 +23,18 @@ for filename in glob.glob(os.path.join(path, '*.json')):  # only process .JSON f
 currentFile.close()
 
 
-def album_in_loaded(id):
-    for album in loaded_albums:
-        if (album.id == id):
-            return album
+# These functions gets an id and returns the album/artist that has this id
+def album_in_loaded(album_id):
+    for current_album in loaded_albums:
+        if current_album.id == album_id:
+            return current_album
+    return -1
+
+
+def artist_in_loaded(artist_id):
+    for current_artist in loaded_artists:
+        if current_artist.id == artist_id:
+            return current_artist
     return -1
 
 
@@ -35,7 +44,9 @@ for track in trackList:
     artists = []
     album_id = track["album"]["id"]
     for artist in track["artists"]:
-        artists.append(Artist(artist["id"], artist["name"]))
+        current_artist = Artist(artist["id"], artist["name"])
+        artists.append(current_artist)
+        loaded_artists.append(current_artist)
         if album_in_loaded(album_id) != -1:
             track_obj_list.append(
                 Track(track["id"], album_in_loaded(album_id), artists, track["popularity"]))
@@ -44,6 +55,11 @@ for track in trackList:
         else:  # album is unknown
             loaded_albums.append(Album(album_id, track["album"]["name"], tracks=[], num_of_songs=1))
             album_in_loaded(album_id).tracks.append(track)
+
+    with open('all_artists','w') as file:
+        for artist in loaded_artists:
+            json.dump(artist.__dict__, file, indent=4, separators=(',', ': '))
+    file.close()
 
     # save loaded albums in file
     with open('all_albums.json', 'w') as file:
@@ -54,11 +70,13 @@ for track in trackList:
 
 # loaded_albums is a list of albums that each album is an object and can be transformed into dict
 def main():
-    # pp = pprint.PrettyPrinter(depth=6)
-    # pp.pprint(trackList[:4])
-    # for album in loaded_albums:
     pp = pprint.PrettyPrinter(depth=6)
-    pp.pprint(loaded_albums[1].__dict__)
+    # pp.pprint(trackList[:4])
+    for artist in loaded_artists:
+        pp.pprint(artist.__dict__)
+    # for album in loaded_albums:
+    # pp = pprint.PrettyPrinter(depth=6)
+    # pp.pprint(loaded_albums[6].__dict__)
 
 
 # print(trackList)

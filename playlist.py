@@ -11,6 +11,9 @@ class Playlist(object):
         self.name = name
         self.tracks = tracks
 
+    def toJSON(self):
+        return json.dumps(self, default=lambda o: o.__dict__,sort_keys=True, indent=4)
+
 
 def create_playlist(username, list_of_tracks: []):
     playlist_name = input("Enter new playlist name")
@@ -19,7 +22,7 @@ def create_playlist(username, list_of_tracks: []):
         create_playlist(username)
     else:
         new_playlist = Playlist(playlist_name, list_of_tracks)
-        update_user_file(username, new_playlist)
+        update_user_file(username, new_playlist.toJSON())
 
 
 def is_playlist_exist(playlist_name, username):
@@ -40,13 +43,13 @@ def update_user_file(username, playlist):
     updated_user = User(username, password, account_type, playlists)
     complete_path = generate_path.generate_user_path(username)
     with open(complete_path, 'w') as file:
-        json.dumps(updated_user.__dict__, indent=4, separators=(',', ': '))
+        json.dumps(updated_user.__dict__)
     file.close()
 
 
 def main():
     t = Track("id24946830", "flower boy", None, 439546)
-    create_playlist('tal', [t])
+    create_playlist('tal2', [t])
 
 
 if __name__ == '__main__':

@@ -14,7 +14,8 @@ def login():
         print("There is no such username! Try again")
     user = read_user(username)
     if user.password != password:
-        print(f"""Wrong password for username{username}""")
+        print(f"""Wrong password for username {username}""")
+    print("Logged in successfully")
 
 
 # create an account (user instance) and write it in the accounts file
@@ -49,8 +50,8 @@ def register():
 
 
 def main():
-    #register()
-    login()
+    register()
+    #login()
 
 
 if __name__ == '__main__':
