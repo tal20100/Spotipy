@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7596519-1f73-4001-b2e3-f14c07372b71" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/read_and_load/load.py" beforeDir="false" afterPath="$PROJECT_DIR$/read_and_load/load.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_control/premium_user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/tal2.json" beforeDir="false" afterPath="$PROJECT_DIR$/user_control/free_user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/tal3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/playlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/playlist.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/search/search.py" beforeDir="false" afterPath="$PROJECT_DIR$/search/search.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/all_albums.json" beforeDir="false" afterPath="$PROJECT_DIR$/storage/all_albums.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/all_artists.json" beforeDir="false" afterPath="$PROJECT_DIR$/storage/all_artists.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_control/sign_in_up.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_control/sign_in_up.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_control/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_control/user.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,11 +21,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user_control/user.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="99">
+              <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user_control/free_user.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/read_and_load/load.py">
+        <entry file="file://$PROJECT_DIR$/user_control/premium_user.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user_control/sign_in_up.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="49" column="63" selection-start-line="49" selection-start-column="63" selection-end-line="49" selection-end-column="63" />
+            <state relative-caret-position="299">
+              <caret line="44" column="64" lean-forward="true" selection-start-line="44" selection-start-column="64" selection-end-line="44" selection-end-column="64" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -28,91 +53,36 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.py">
+        <entry file="file://$PROJECT_DIR$/accounts/tal2.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="231">
+              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/storage/all_albums.json">
+        <entry file="file://$PROJECT_DIR$/read_json/read_account.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="557">
-              <caret line="1456" column="1" lean-forward="true" selection-start-line="1456" selection-start-column="1" selection-end-line="1456" selection-end-column="1" />
+            <state relative-caret-position="398">
+              <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/read_json/read_albums.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/storage/all_artists.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9487">
-              <caret line="444" column="1" lean-forward="true" selection-start-line="444" selection-start-column="1" selection-end-line="444" selection-end-column="1" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/accounts/tal1.json">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/playlist.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+            <state relative-caret-position="387">
+              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/track.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/search/search.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/album.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/artist.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -148,9 +118,12 @@
       <find>'num_of_songs':</find>
       <find>Album</find>
       <find>Album</find>
-      <find>joji</find>
       <find>'num_of_songs': 2</find>
       <find>Album(</find>
+      <find>album</find>
+      <find>34GQP3dILpyCN018y2k61L</find>
+      <find>albums</find>
+      <find>joji</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -169,7 +142,6 @@
         <option value="$PROJECT_DIR$/manager.py" />
         <option value="$PROJECT_DIR$/login.py" />
         <option value="$PROJECT_DIR$/user_control/accounts.json" />
-        <option value="$PROJECT_DIR$/user_control/user.py" />
         <option value="$PROJECT_DIR$/generate_path.py" />
         <option value="$PROJECT_DIR$/user_control/login.py" />
         <option value="$PROJECT_DIR$/read_and_load/load_user.py" />
@@ -178,8 +150,6 @@
         <option value="$PROJECT_DIR$/accounts/tal.json" />
         <option value="$PROJECT_DIR$/utils/generate_path.py" />
         <option value="$PROJECT_DIR$/users/read_account.py" />
-        <option value="$PROJECT_DIR$/user_control/sign_in_up.py" />
-        <option value="$PROJECT_DIR$/playlist.py" />
         <option value="$PROJECT_DIR$/search.py" />
         <option value="$PROJECT_DIR$/read_and_load/all_albums.json" />
         <option value="$PROJECT_DIR$/read_and_load/all_artists.json" />
@@ -188,10 +158,15 @@
         <option value="$PROJECT_DIR$/read_json/read_account.py" />
         <option value="$PROJECT_DIR$/read_json/read_artists.py" />
         <option value="$PROJECT_DIR$/read_json/read_albums.py" />
-        <option value="$PROJECT_DIR$/search/search.py" />
-        <option value="$PROJECT_DIR$/storage/all_albums.json" />
-        <option value="$PROJECT_DIR$/storage/all_artists.json" />
         <option value="$PROJECT_DIR$/read_and_load/load.py" />
+        <option value="$PROJECT_DIR$/storage/all_artists.json" />
+        <option value="$PROJECT_DIR$/storage/all_albums.json" />
+        <option value="$PROJECT_DIR$/search/search.py" />
+        <option value="$PROJECT_DIR$/user_control/sign_in_up.py" />
+        <option value="$PROJECT_DIR$/playlist.py" />
+        <option value="$PROJECT_DIR$/user_control/user.py" />
+        <option value="$PROJECT_DIR$/user_control/free_user.py" />
+        <option value="$PROJECT_DIR$/user_control/premium_user.py" />
       </list>
     </option>
   </component>
@@ -241,7 +216,7 @@
             <path>
               <item name="SpotipyProj" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpotipyProj" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="user_control" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -275,7 +250,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.load (2)">
+  <component name="RunManager" selected="Python.playlist">
     <configuration name="load (2)" type="PythonConfigurationType" factoryName="Python">
       <module name="SpotipyProj" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -381,12 +356,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="sign_in_up" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SpotipyProj" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/user_control" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/user_control/sign_in_up.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.search" />
-        <item itemvalue="Python.read_albums" />
-        <item itemvalue="Python.read_account (1)" />
         <item itemvalue="Python.playlist" />
+        <item itemvalue="Python.sign_in_up" />
+        <item itemvalue="Python.read_account (1)" />
+        <item itemvalue="Python.read_albums" />
+        <item itemvalue="Python.search" />
       </list>
     </recent_temporary>
   </component>
@@ -416,7 +413,7 @@
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.17237799" />
       <window_info anchor="bottom" id="Version Control" order="5" weight="0.32917964" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.16614746" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.23987539" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.3997923" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -434,9 +431,6 @@
           <caret line="201" column="45" lean-forward="true" selection-start-line="201" selection-start-column="45" selection-end-line="201" selection-end-column="45" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/read_json/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/read_and_load/data.json" />
     <entry file="file://$PROJECT_DIR$/צanager.py" />
@@ -457,30 +451,7 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/accounts/tal.json" />
-    <entry file="file://$PROJECT_DIR$/accounts/tal1.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/accounts/tal3.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user_control/sign_in_up.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="43" column="32" lean-forward="true" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/search/all_albums.json" />
-    <entry file="file://$PROJECT_DIR$/user_control/user.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/search/all_artists.json" />
     <entry file="file://$PROJECT_DIR$/read_and_load/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -489,9 +460,6 @@
     <entry file="file://$PROJECT_DIR$/read_and_load/all_artists.json" />
     <entry file="file://$PROJECT_DIR$/all_artists.json" />
     <entry file="file://$PROJECT_DIR$/all_albums.json" />
-    <entry file="file://$PROJECT_DIR$/search/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils/generate_path.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -524,19 +492,26 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/read_json/read_artists.py" />
-    <entry file="file://$PROJECT_DIR$/accounts/tal2.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/read_json/read_account.py">
+    <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="21" selection-start-line="8" selection-start-column="4" selection-end-line="21" />
+        <state relative-caret-position="198">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search/search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="61" column="26" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/read_json/read_albums.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
+        <state relative-caret-position="300">
           <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
@@ -544,27 +519,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/track.py">
+    <entry file="file://$PROJECT_DIR$/read_and_load/load.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/playlist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        <state relative-caret-position="321">
+          <caret line="88" column="38" lean-forward="true" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="38" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
+    <entry file="file://$PROJECT_DIR$/read_json/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/all_albums.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="-651">
+          <caret line="122" column="4" lean-forward="true" selection-start-line="122" selection-start-column="4" selection-end-line="122" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/all_artists.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="154" column="9" lean-forward="true" selection-start-line="154" selection-start-column="9" selection-end-line="154" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/track.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -582,39 +570,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/search/search.py">
+    <entry file="file://$PROJECT_DIR$/accounts/tal3.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/read_json/read_account.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        <state relative-caret-position="398">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/1.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="53" selection-start-column="53" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playlist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/storage/all_albums.json">
+    <entry file="file://$PROJECT_DIR$/accounts/tal2.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="1456" column="1" lean-forward="true" selection-start-line="1456" selection-start-column="1" selection-end-line="1456" selection-end-column="1" />
+        <state relative-caret-position="231">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/storage/all_artists.json">
+    <entry file="file://$PROJECT_DIR$/accounts/tal1.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user_control/user.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9487">
-          <caret line="444" column="1" lean-forward="true" selection-start-line="444" selection-start-column="1" selection-end-line="444" selection-end-column="1" />
+        <state relative-caret-position="99">
+          <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/read_and_load/load.py">
+    <entry file="file://$PROJECT_DIR$/user_control/sign_in_up.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="49" column="63" selection-start-line="49" selection-start-column="63" selection-end-line="49" selection-end-column="63" />
+        <state relative-caret-position="299">
+          <caret line="44" column="64" lean-forward="true" selection-start-line="44" selection-start-column="64" selection-end-line="44" selection-end-column="64" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user_control/free_user.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user_control/premium_user.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

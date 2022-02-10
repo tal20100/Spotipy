@@ -1,0 +1,8 @@
+{
+    "username": "tal2",
+    "password": "123",
+    "account_type": "free",
+    "playlists": [
+        "{\n    \"name\": \"new_playlist\",\n    \"tracks\": [\n        {\n            \"album\": \"flower boy\",\n            \"artists\": null,\n            \"id\": \"id24946830\",\n            \"popularity\": 439546\n        }\n    ]\n}"
+    ]
+}

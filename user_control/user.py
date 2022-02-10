@@ -1,4 +1,7 @@
-class User(object):
+from abc import ABC
+
+
+class User(ABC):
     def __init__(self, username, password, account_type, playlists: []):
         self.username = username
         self.password = password

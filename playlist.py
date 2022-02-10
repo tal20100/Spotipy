@@ -12,7 +12,7 @@ class Playlist(object):
         self.tracks = tracks
 
     def toJSON(self):
-        return json.dumps(self, default=lambda o: o.__dict__,sort_keys=True, indent=4)
+        return json.dumps(self, default=lambda o: o.__dict__, sort_keys=True, indent=4)
 
 
 def create_playlist(username, list_of_tracks: []):
@@ -43,7 +43,7 @@ def update_user_file(username, playlist):
     updated_user = User(username, password, account_type, playlists)
     complete_path = generate_path.generate_user_path(username)
     with open(complete_path, 'w') as file:
-        json.dumps(updated_user.__dict__)
+        json.dump(updated_user.__dict__, file, indent=4, separators=(',', ': '))
     file.close()
 
 
