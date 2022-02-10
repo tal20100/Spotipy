@@ -7,7 +7,7 @@ from album import Album
 from artist import Artist
 from track import Track
 
-# Reading the files from the folder and loading the json object into my costum python objects.
+# Reading the files from the folder and loading the json object into my custom python objects.
 
 trackList = []
 loaded_albums = []  # list of albums
@@ -44,33 +44,39 @@ for track in trackList:
     artists = []
     album_id = track["album"]["id"]
     for artist in track["artists"]:
-        current_artist = Artist(artist["id"], artist["name"])
+        current_artist = Artist(artist["id"], artist["name"], [])
+        if artist_in_loaded(artist["id"]) == -1:
+            loaded_artists.append(current_artist)
         artists.append(current_artist)
-        loaded_artists.append(current_artist)
-        if album_in_loaded(album_id) != -1:
+        if album_in_loaded(album_id) != -1:  # album is already loaded
             track_obj_list.append(
                 Track(track["id"], album_in_loaded(album_id), artists, track["popularity"]))
-            album_in_loaded(album_id).tracks.append(track)
+            album_in_loaded(album_id).tracks.append(track)  # add track to the album
             album_in_loaded(album_id).num_of_songs = album_in_loaded(album_id).num_of_songs + 1
         else:  # album is unknown
-            loaded_albums.append(Album(album_id, track["album"]["name"], tracks=[], num_of_songs=1))
+            loaded_albums.append(Album(album_id, tracks=[], num_of_songs=1))
             album_in_loaded(album_id).tracks.append(track)
 
 
-    os.chdir('..')
-    os.chdir(os.getcwd()+'/storage')
-    with open('all_artists.json', 'w') as file:
-        for artist in loaded_artists:
-            json.dump(artist.__dict__, file, indent=4, separators=(',', ': '))
-            # file.write(",")
-    file.close()
+os.chdir('..')
+os.chdir(os.getcwd() + '/storage')
 
-    # save loaded albums in file
-    with open('all_albums.json', 'w') as file:
-        for album in loaded_albums:
-            json.dump(album.__dict__, file, indent=4, separators=(',', ': '))
-            # file.write(",")
-    file.close()
+with open('all_artists.json', 'w') as file:
+    file.write('[')
+    for artist in loaded_artists:
+        json.dump(artist.__dict__, file, indent=4, separators=(',', ': '))
+        file.write(',')
+    file.write(']')
+file.close()
+
+# save loaded albums in file
+with open('all_albums.json', 'w') as file:
+    file.write('[')
+    for album in loaded_albums:
+        json.dump(album.__dict__, file, indent=4, separators=(',', ': '))
+        file.write(',')
+    file.write(']')
+file.close()
 
 
 # loaded_albums is a list of albums that each album is an object and can be transformed into dict
@@ -79,6 +85,8 @@ def main():
     # pp.pprint(trackList[:4])
     for artist in loaded_artists:
         pp.pprint(artist.__dict__)
+    #for album in loaded_albums:
+    #    pp.pprint(album.__dict__)
     # for album in loaded_albums:
     # pp = pprint.PrettyPrinter(depth=6)
     # pp.pprint(loaded_albums[6].__dict__)

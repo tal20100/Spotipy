@@ -1,214 +1,233 @@
-{
+[{
     "id": "2l6M7GaS9x3rZOX6nDX3CM",
-    "albums": "Margalit Tzan'ani"
-}{
+    "name": "Margalit Tzan'ani",
+    "albums": []
+},{
     "id": "7Ln80lUS6He07XvHI8qqHH",
-    "albums": "Arctic Monkeys"
-}{
+    "name": "Arctic Monkeys",
+    "albums": []
+},{
     "id": "1IAEef07H0fd9aA8aUHUlL",
-    "albums": "Omer Adam"
-}{
+    "name": "Omer Adam",
+    "albums": []
+},{
     "id": "2iEvnFsWxR0Syqu2JNopAd",
-    "albums": "Smash Mouth"
-}{
+    "name": "Smash Mouth",
+    "albums": []
+},{
     "id": "5BtHciL0e0zOP7prIHn3pP",
-    "albums": "Breaking Benjamin"
-}{
+    "name": "Breaking Benjamin",
+    "albums": []
+},{
     "id": "6uQl3gu1AIXyvqCAxnc2q4",
-    "albums": "Eden Hason"
-}{
+    "name": "Eden Hason",
+    "albums": []
+},{
     "id": "3MZsBdqDrRTJihTHQrO6Dq",
-    "albums": "Joji"
-}{
+    "name": "Joji",
+    "albums": []
+},{
     "id": "2pQd850SlcQYxzmSwsQYHS",
-    "albums": "Beit Habubot"
-}{
+    "name": "Beit Habubot",
+    "albums": []
+},{
     "id": "1oTaLSazZlqH2azlemNZOm",
-    "albums": "Atar Mayner"
-}{
+    "name": "Atar Mayner",
+    "albums": []
+},{
     "id": "58mf4oi8A6QRteZvdlpq2n",
-    "albums": "Dor3"
-}{
+    "name": "Dor3",
+    "albums": []
+},{
     "id": "7sG6GYc2AsX0HNOkVdGCO4",
-    "albums": "Eden Derso"
-}{
+    "name": "Eden Derso",
+    "albums": []
+},{
     "id": "66jtNcSqBSNontUk1Apdam",
-    "albums": "Malca Baya"
-}{
+    "name": "Malca Baya",
+    "albums": []
+},{
     "id": "2wp6i8BxLF3UrF1J3LY4WC",
-    "albums": "Berry Sakharof"
-}{
+    "name": "Berry Sakharof",
+    "albums": []
+},{
     "id": "5EgEUxXi9uTYYN4cQwmLPy",
-    "albums": "Girafot"
-}{
-    "id": "3MZsBdqDrRTJihTHQrO6Dq",
-    "albums": "Joji"
-}{
+    "name": "Girafot",
+    "albums": []
+},{
     "id": "74XFHRwlV6OrjEM0A2NCMF",
-    "albums": "Paramore"
-}{
+    "name": "Paramore",
+    "albums": []
+},{
     "id": "3JPKPnzWJGjccn8SnjwA5i",
-    "albums": "Agam Buhbut"
-}{
+    "name": "Agam Buhbut",
+    "albums": []
+},{
     "id": "0PFtn5NtBbbUNbU9EAmIWF",
-    "albums": "TOTO"
-}{
+    "name": "TOTO",
+    "albums": []
+},{
     "id": "6moCgUmUrdoS86CnxxAMK1",
-    "albums": "Partysingers"
-}{
+    "name": "Partysingers",
+    "albums": []
+},{
     "id": "0xIUeWyN3fqugYcofU1uwL",
-    "albums": "The United Dance People"
-}{
+    "name": "The United Dance People",
+    "albums": []
+},{
     "id": "1dfeR4HaWDbWqFHLkxsg1d",
-    "albums": "Queen"
-}{
+    "name": "Queen",
+    "albums": []
+},{
     "id": "0oSGxfWSnnOXhD2fKuz2Gy",
-    "albums": "David Bowie"
-}{
+    "name": "David Bowie",
+    "albums": []
+},{
     "id": "4saB5ta3MrhGC4aYV0zF2r",
-    "albums": "Avihu Pinchasov Rhythm Club"
-}{
+    "name": "Avihu Pinchasov Rhythm Club",
+    "albums": []
+},{
     "id": "7oPgCQqMMXEXrNau5vxYZP",
-    "albums": "Tracy Chapman"
-}{
+    "name": "Tracy Chapman",
+    "albums": []
+},{
     "id": "5WUlDfRSoLAfcVSX1WnrxN",
-    "albums": "Sia"
-}{
+    "name": "Sia",
+    "albums": []
+},{
     "id": "71NBOcJ9lMeXqnbnya1z0x",
-    "albums": "Himalayas"
-}{
+    "name": "Himalayas",
+    "albums": []
+},{
     "id": "73noq7TQFRfKKeynAhtCy6",
-    "albums": "\u05d3\u05d3\u05d9 \u05d3\u05d3\u05d5\u05df"
-}{
+    "name": "\u05d3\u05d3\u05d9 \u05d3\u05d3\u05d5\u05df",
+    "albums": []
+},{
     "id": "1PvbPOqIFfXgttsSsaM9bz",
-    "albums": "\u05d0\u05e8\u05e5 \u05e0\u05d4\u05d3\u05e8\u05ea"
-}{
+    "name": "\u05d0\u05e8\u05e5 \u05e0\u05d4\u05d3\u05e8\u05ea",
+    "albums": []
+},{
     "id": "4Uzm4t6wAufWqKP7ZgYLxF",
-    "albums": "Shimi Tavori"
-}{
+    "name": "Shimi Tavori",
+    "albums": []
+},{
     "id": "1sVozq6X0qXArzROCJa208",
-    "albums": "Boaz Banai"
-}{
-    "id": "7Ln80lUS6He07XvHI8qqHH",
-    "albums": "Arctic Monkeys"
-}{
+    "name": "Boaz Banai",
+    "albums": []
+},{
     "id": "56oDRnqbIiwx4mymNEv7dS",
-    "albums": "Lizzo"
-}{
+    "name": "Lizzo",
+    "albums": []
+},{
     "id": "2S5hlvw4CMtMGswFtfdK15",
-    "albums": "Royal Blood"
-}{
+    "name": "Royal Blood",
+    "albums": []
+},{
     "id": "39jFFncu6W0phhYK16Dp9g",
-    "albums": "Sarit Hadad"
-}{
-    "id": "2l6M7GaS9x3rZOX6nDX3CM",
-    "albums": "Margalit Tzan'ani"
-}{
+    "name": "Sarit Hadad",
+    "albums": []
+},{
     "id": "74ASZWbe4lXaubB36ztrGX",
-    "albums": "Bob Dylan"
-}{
+    "name": "Bob Dylan",
+    "albums": []
+},{
     "id": "1PliqAiazZ7fUWok2vg2Ia",
-    "albums": "Teapacks"
-}{
+    "name": "Teapacks",
+    "albums": []
+},{
     "id": "4xOU852y5U5YPQe29uWPH5",
-    "albums": "Hayehudim"
-}{
+    "name": "Hayehudim",
+    "albums": []
+},{
     "id": "6UReeaqNcjIfzIH13kTHKE",
-    "albums": "Amir Ve Ben"
-}{
+    "name": "Amir Ve Ben",
+    "albums": []
+},{
     "id": "2a76fsDcTl6A43zwaFNPr4",
-    "albums": "Jane Bordeaux"
-}{
-    "id": "39jFFncu6W0phhYK16Dp9g",
-    "albums": "Sarit Hadad"
-}{
+    "name": "Jane Bordeaux",
+    "albums": []
+},{
     "id": "6M2wZ9GZgrQXHCFfjv46we",
-    "albums": "Dua Lipa"
-}{
+    "name": "Dua Lipa",
+    "albums": []
+},{
     "id": "4r63FhuTkUYltbVAg5TQnk",
-    "albums": "DaBaby"
-}{
+    "name": "DaBaby",
+    "albums": []
+},{
     "id": "0rvjqX7ttXeg3mTy8Xscbt",
-    "albums": "Journey"
-}{
+    "name": "Journey",
+    "albums": []
+},{
     "id": "0rcuq0mzUaleXgXxuLFPPZ",
-    "albums": "Ethnix"
-}{
+    "name": "Ethnix",
+    "albums": []
+},{
     "id": "1SOCXWLgBvXDqNobiSnGM7",
-    "albums": "Teddy Neguse"
-}{
+    "name": "Teddy Neguse",
+    "albums": []
+},{
     "id": "3cDi1D2FHMVgljfdB1QVgr",
-    "albums": "Jasmin Moallem"
-}{
-    "id": "5EgEUxXi9uTYYN4cQwmLPy",
-    "albums": "Girafot"
-}{
+    "name": "Jasmin Moallem",
+    "albums": []
+},{
     "id": "2gOP5NE2e7HmeVRy8EKPx8",
-    "albums": "DMZL"
-}{
-    "id": "5WUlDfRSoLAfcVSX1WnrxN",
-    "albums": "Sia"
-}{
+    "name": "DMZL",
+    "albums": []
+},{
     "id": "2feDdbD5araYcm6JhFHHw7",
-    "albums": "Labrinth"
-}{
+    "name": "Labrinth",
+    "albums": []
+},{
     "id": "2xiIXseIJcq3nG7C8fHeBj",
-    "albums": "Three Days Grace"
-}{
-    "id": "3MZsBdqDrRTJihTHQrO6Dq",
-    "albums": "Joji"
-}{
-    "id": "4Uzm4t6wAufWqKP7ZgYLxF",
-    "albums": "Shimi Tavori"
-}{
+    "name": "Three Days Grace",
+    "albums": []
+},{
     "id": "17pbOSPIn3lmY0vHhOlKGL",
-    "albums": "Tuna"
-}{
+    "name": "Tuna",
+    "albums": []
+},{
     "id": "3rzVtsul7Jt3BFcy0UhWgs",
-    "albums": "Tzlil Danin"
-}{
+    "name": "Tzlil Danin",
+    "albums": []
+},{
     "id": "7dOBabd5O4CvKrg4iriHTM",
-    "albums": "Kid Rock"
-}{
+    "name": "Kid Rock",
+    "albums": []
+},{
     "id": "3EOEK57CV77D4ovYVcmiyt",
-    "albums": "Dennis Lloyd"
-}{
+    "name": "Dennis Lloyd",
+    "albums": []
+},{
     "id": "3gC0JIIgE2lK3yztam5ndm",
-    "albums": "Yoni Bloch"
-}{
+    "name": "Yoni Bloch",
+    "albums": []
+},{
     "id": "6pDRa5fS3myWSP0fpIUcNl",
-    "albums": "Evans Blue"
-}{
-    "id": "3gC0JIIgE2lK3yztam5ndm",
-    "albums": "Yoni Bloch"
-}{
+    "name": "Evans Blue",
+    "albums": []
+},{
     "id": "4zG8rBneMjXa6RadES2rUF",
-    "albums": "HaDorbanim"
-}{
-    "id": "39jFFncu6W0phhYK16Dp9g",
-    "albums": "Sarit Hadad"
-}{
+    "name": "HaDorbanim",
+    "albums": []
+},{
     "id": "2MOEM2cDGyOzUf7LrBFuIG",
-    "albums": "Adir Getz"
-}{
+    "name": "Adir Getz",
+    "albums": []
+},{
     "id": "5ypxebeHEIXjMtJb17uJlI",
-    "albums": "Jet"
-}{
+    "name": "Jet",
+    "albums": []
+},{
     "id": "7oPftvlwr6VrsViSDV7fJY",
-    "albums": "Green Day"
-}{
-    "id": "3MZsBdqDrRTJihTHQrO6Dq",
-    "albums": "Joji"
-}{
-    "id": "4saB5ta3MrhGC4aYV0zF2r",
-    "albums": "Avihu Pinchasov Rhythm Club"
-}{
+    "name": "Green Day",
+    "albums": []
+},{
     "id": "2d0hyoQ5ynDBnkvAbJKORj",
-    "albums": "Rage Against The Machine"
-}{
+    "name": "Rage Against The Machine",
+    "albums": []
+},{
     "id": "0zFvzQ4P6i9vu7Q2Kmmi3m",
-    "albums": "Eric Berman"
-}{
-    "id": "39jFFncu6W0phhYK16Dp9g",
-    "albums": "Sarit Hadad"
-}
+    "name": "Eric Berman",
+    "albums": []
+}]

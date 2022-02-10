@@ -1,7 +1,7 @@
 import json
 import os
 
-from users.read_account import read_user
+from read_json.read_account import read_user
 from utils import generate_path
 from user_control.user import User
 

@@ -2,7 +2,7 @@ import json
 
 from track import Track
 from user_control.user import User
-from users.read_account import read_user
+from read_json.read_account import read_user
 from utils import generate_path
 
 

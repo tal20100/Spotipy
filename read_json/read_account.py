@@ -9,7 +9,7 @@ def read_user(username):
     with open(user_file_location, encoding='utf-8') as user_file:
         user_dict = json.loads(user_file.read())
     user_file.close()
-    # the users data is stored as string, ill use the info to create an object
+    # the read_json data is stored as string, ill use the info to create an object
 
     playlists = []
     for playlist in user_dict["playlists"]:
