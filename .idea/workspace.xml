@@ -2,14 +2,91 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7596519-1f73-4001-b2e3-f14c07372b71" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/interface.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console_interface.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paths.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_and_load/songs_for _load/song_03DcpryHcONqKi2uKXK5Ow.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_and_load/songs_for _load/song_086myS9r57YsLbJpU0TgK9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_and_load/songs_for _load/song_09PZuKctf7D3RAdaegN7zu.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_and_load/songs_for _load/song_0C9jZPUv4SuaXkuEQw6L40.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_and_load/songs_for _load/song_0faXHILILebCGnJBPU6KJJ.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_and_load/songs_for _load/song_0oHTvb0EVeYTUc0zscZphb.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_and_load/songs_for _load/song_0rKtyWc8bvkriBthvHKY8d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_and_load/songs_for _load/song_0xu3PasKYiRNedJOnRBkJA.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_and_load/songs_for _load/song_1K0Mvug9bSd7KqjAPK5CnG.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_and_load/songs_for _load/song_1NcXVKZFIQd9J8Y74ls6Xp.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_and_load/songs_for _load/song_1QxjdVgVrqRRuPM4T0dgWx.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_and_load/songs_for _load/song_1VGzxJnVQND7Cg5H5wGj14.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_and_load/songs_for _load/song_1bFSitBqVkOrZ5geYAHEKX.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_and_load/songs_for _load/song_1yjY7rpaAQvKwpdUliHx0d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_and_load/songs_for _load/song_20rg6HNd837eX34TA5tEVf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_and_load/songs_for _load/song_2374M0fQpWi3dLnB54qaLX.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_and_load/songs_for _load/song_2GCR5b8UkMN2QtBMtfMvZQ.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_and_load/songs_for _load/song_2M9ro2krNb7nr7HSprkEgo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_and_load/songs_for _load/song_2MbgQKWhoii8bqsMBWWWgA.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_and_load/songs_for _load/song_2OvYRK5xu5APpAbLaB3l7b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_and_load/songs_for _load/song_2cY3YDf9AQl2DuocD0JYf0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_and_load/songs_for _load/song_2fuCquhmrzHpu5xcA1ci9x.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_and_load/songs_for _load/song_2pMVkGu7SomhwZwufGOPda.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_and_load/songs_for _load/song_2rUXZPyYkMvncJ7jkbOmd2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_and_load/songs_for _load/song_348rUXIKEw4DYw7R0oIYNu.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_and_load/songs_for _load/song_3DQVgcqaP3iSMbaKsd57l5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_and_load/songs_for _load/song_3HWzoMvoF3TQfYg4UPszDq.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_and_load/songs_for _load/song_3MjrueDQKVr6xDDseZwhEd.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_and_load/songs_for _load/song_3RkQ3UwOyPqpIiIvGVewuU.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_and_load/songs_for _load/song_3Sa4wFRcNP1uNzwQA6cVgS.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_and_load/songs_for _load/song_3mvVb3dFiHyXG86N3gVYja.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_and_load/songs_for _load/song_3o863oLzV4qj53EBCtEAqz.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_and_load/songs_for _load/song_3yWWNB1ESnafJRbTXOJ3sI.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_and_load/songs_for _load/song_406GxF9gnDjRwsy5wqLpOh.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_and_load/songs_for _load/song_40zK7MICeyHNNWyOrUU0sC.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_and_load/songs_for _load/song_463CkQjx2Zk1yXoBuierM9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_and_load/songs_for _load/song_4bHsxqR3GMrXTxEPLuK5ue.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_and_load/songs_for _load/song_4iTXVDvJIcFtSqvshO4JPA.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_and_load/songs_for _load/song_54PKGOlUPA4NXGQYnWxz9K.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_and_load/songs_for _load/song_5DWZX4piXraq1IOr2a4sBL.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_and_load/songs_for _load/song_5F1ZmucV0uJY14y2dYKePa.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_and_load/songs_for _load/song_5RnhWaP5VD3eJN3J0chPmh.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_and_load/songs_for _load/song_5W9Qlj971vEzgfVHxiUCkT.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_and_load/songs_for _load/song_5X0UESDGqxNkFIbgtZU0sc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_and_load/songs_for _load/song_5bSY17Hl7P9ztiKCTyLz4a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_and_load/songs_for _load/song_5eFxwmqKrHpSQDOEIFYlgY.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_and_load/songs_for _load/song_5kKme9GCKnjKWC16Lb8cER.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_and_load/songs_for _load/song_5rX6C5QVvvZB7XckETNych.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_and_load/songs_for _load/song_5xetBdYzklZ71hbHjXb4Zf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_and_load/songs_for _load/song_5yvN1r8skR9fE5jqNgsCox.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_and_load/songs_for _load/song_6J2R4mMoDfb5NQMDuV0nWq.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_and_load/songs_for _load/song_6Ks2OC8Hydb60EiBqJdoiW.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_and_load/songs_for _load/song_6L89mwZXSOwYl76YXfX13s.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_and_load/songs_for _load/song_6corIIuvWjaVslSyYoXGuR.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_and_load/songs_for _load/song_6hWXe5KsRygkMO5MOvk7W4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_and_load/songs_for _load/song_6p8eEdiZLKJH8tcjGZuNTK.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_and_load/songs_for _load/song_75r8RynXHLGJPLw8CY87zh.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_and_load/songs_for _load/song_7aewPE2qqi9OlnG4HSDZnO.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_and_load/songs_for _load/song_7f6Bkdh4flhzfeUcMeuBjY.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read_and_load/songs_for _load/song_7jbmHNja5Ifm14GCKa3CFO.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saved_accounts/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/config_read.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/load_metadata/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/tal1.json" beforeDir="false" afterPath="$PROJECT_DIR$/saved_accounts/tal1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/tal2.json" beforeDir="false" afterPath="$PROJECT_DIR$/saved_accounts/tal2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/album.py" beforeDir="false" afterPath="$PROJECT_DIR$/music_objects/album.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artist.py" beforeDir="false" afterPath="$PROJECT_DIR$/music_objects/artist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/rest_interface.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/music_objects/playlist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/read_and_load/load.py" beforeDir="false" afterPath="$PROJECT_DIR$/read_and_load/load.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/read_json/read_account.py" beforeDir="false" afterPath="$PROJECT_DIR$/read_json/read_account.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/read_json/read_albums.py" beforeDir="false" afterPath="$PROJECT_DIR$/read_json/read_albums.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_control/free_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_control/free_user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_control/premium_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_control/premium_user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_control/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_control/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search/search.py" beforeDir="false" afterPath="$PROJECT_DIR$/search/search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/music_objects/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/all_albums.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/all_artists.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/track.py" beforeDir="false" afterPath="$PROJECT_DIR$/music_objects/track.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_control/sign_in_up.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_control/sign_in_up.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/generate_path.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/generate_path.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,51 +94,59 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="SpotipyProj" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/read_and_load/load.py">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="59" column="12" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="66" />
+            <state relative-caret-position="198">
+              <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/console_interface.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="618">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
               <folding>
-                <element signature="e#0#11#0" expanded="true" />
+                <element signature="e#0#25#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user_control/user.py">
+        <entry file="file://$PROJECT_DIR$/rest_interface.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+            <state relative-caret-position="264">
+              <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/read_json/read_albums.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/template.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/saved_accounts/tal.json">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/interface.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/read_json/read_account.py">
+        <entry file="file://$PROJECT_DIR$/search/search.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+            <state relative-caret-position="184">
+              <caret line="42" column="42" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -70,45 +155,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user_control/free_user.py">
+        <entry file="file://$PROJECT_DIR$/load_metadata/all_albums.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="24" selection-start-column="24" selection-end-column="24" />
+            <state relative-caret-position="206">
+              <caret line="1450" column="31" selection-start-line="1450" selection-start-column="31" selection-end-line="1450" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user_control/premium_user.py">
+        <entry file="file://$PROJECT_DIR$/user_control/sign_in_up.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/accounts/tal2.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/accounts/tal1.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/playlist.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-874">
-              <caret line="14" column="44" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="44" />
+            <state relative-caret-position="282">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/generate_path.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/config_read.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -152,6 +232,8 @@
       <find>User</find>
       <find>Track</find>
       <find>Album</find>
+      <find>premiu</find>
+      <find>venv</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -176,7 +258,6 @@
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/users/accounts_dict.py" />
         <option value="$PROJECT_DIR$/accounts/tal.json" />
-        <option value="$PROJECT_DIR$/utils/generate_path.py" />
         <option value="$PROJECT_DIR$/users/read_account.py" />
         <option value="$PROJECT_DIR$/search.py" />
         <option value="$PROJECT_DIR$/read_and_load/all_albums.json" />
@@ -184,11 +265,8 @@
         <option value="$PROJECT_DIR$/artist.py" />
         <option value="$PROJECT_DIR$/album.py" />
         <option value="$PROJECT_DIR$/read_json/read_artists.py" />
-        <option value="$PROJECT_DIR$/read_and_load/load.py" />
         <option value="$PROJECT_DIR$/storage/all_artists.json" />
         <option value="$PROJECT_DIR$/storage/all_albums.json" />
-        <option value="$PROJECT_DIR$/search/search.py" />
-        <option value="$PROJECT_DIR$/user_control/sign_in_up.py" />
         <option value="$PROJECT_DIR$/playlist.py" />
         <option value="$PROJECT_DIR$/accounts/tal1.json" />
         <option value="$PROJECT_DIR$/user_control/user.py" />
@@ -196,7 +274,21 @@
         <option value="$PROJECT_DIR$/user_control/free_user.py" />
         <option value="$PROJECT_DIR$/read_json/read_account.py" />
         <option value="$PROJECT_DIR$/read_json/read_albums.py" />
+        <option value="$PROJECT_DIR$/utils/interface_function.py" />
+        <option value="$PROJECT_DIR$/utils/interface_functions.py" />
+        <option value="$PROJECT_DIR$/loggers/accounts.log" />
+        <option value="$PROJECT_DIR$/utils/config_read.py" />
+        <option value="$PROJECT_DIR$/paths.config" />
+        <option value="$PROJECT_DIR$/config_read.py" />
+        <option value="$PROJECT_DIR$/user_control/sign_in_up.py" />
+        <option value="$PROJECT_DIR$/read_and_load/load.py" />
+        <option value="$PROJECT_DIR$/load_metadata/all_albums.json" />
+        <option value="$PROJECT_DIR$/load_metadata/all_artists.json" />
+        <option value="$PROJECT_DIR$/utils/generate_path.py" />
         <option value="$PROJECT_DIR$/interface.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/rest_interface.py" />
+        <option value="$PROJECT_DIR$/search/search.py" />
       </list>
     </option>
   </component>
@@ -221,27 +313,12 @@
             <path>
               <item name="SpotipyProj" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpotipyProj" type="462c0819:PsiDirectoryNode" />
-              <item name="accounts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpotipyProj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpotipyProj" type="462c0819:PsiDirectoryNode" />
-              <item name="read_and_load" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpotipyProj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpotipyProj" type="462c0819:PsiDirectoryNode" />
-              <item name="read_json" type="462c0819:PsiDirectoryNode" />
+              <item name="load_metadata" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpotipyProj" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpotipyProj" type="462c0819:PsiDirectoryNode" />
               <item name="search" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpotipyProj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpotipyProj" type="462c0819:PsiDirectoryNode" />
-              <item name="storage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpotipyProj" type="b2602c69:ProjectViewProjectNode" />
@@ -258,14 +335,18 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/songs_for _load" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Tal\Desktop\Course\SpotipyProj\songs_for _load" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Tal\Desktop\Course\SpotipyProj\" />
-      <recent name="C:\Users\Tal\Desktop\Course\SpotipyProj\storage" />
-      <recent name="C:\Users\Tal\Desktop\Course\SpotipyProj\search" />
       <recent name="C:\Users\Tal\Desktop\Course\SpotipyProj\utils" />
-      <recent name="C:\Users\Tal\Desktop\Course\SpotipyProj\user_control" />
+      <recent name="C:\Users\Tal\Desktop\Course\SpotipyProj\read_and_load" />
+      <recent name="C:\Users\Tal\Desktop\Course\SpotipyProj\objects" />
+      <recent name="C:\Users\Tal\Desktop\Course\SpotipyProj\" />
+      <recent name="C:\Users\Tal\Desktop\Course\SpotipyProj\config" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -280,7 +361,49 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.read_account (1)">
+  <component name="RunManager" selected="Python.search">
+    <configuration name="config_read" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SpotipyProj" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\Tal\Desktop\Course\SpotipyProj\utils\config_read.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="interface" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SpotipyProj" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\Tal\Desktop\Course\SpotipyProj\console_interface.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="load (2)" type="PythonConfigurationType" factoryName="Python">
       <module name="SpotipyProj" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -302,7 +425,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="playlist" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="rest_interface" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SpotipyProj" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -314,7 +437,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/playlist.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rest_interface.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -323,7 +446,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="premium_user" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="search" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SpotipyProj" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -331,53 +454,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/user_control" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/search" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/user_control/premium_user.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="read_account (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="SpotipyProj" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/read_json" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/read_json/read_account.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="read_albums" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="SpotipyProj" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/read_json" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/read_json/read_albums.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/search/search.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -409,11 +490,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.read_account (1)" />
-        <item itemvalue="Python.premium_user" />
-        <item itemvalue="Python.playlist" />
+        <item itemvalue="Python.search" />
+        <item itemvalue="Python.rest_interface" />
+        <item itemvalue="Python.interface" />
         <item itemvalue="Python.sign_in_up" />
-        <item itemvalue="Python.read_albums" />
+        <item itemvalue="Python.config_read" />
       </list>
     </recent_temporary>
   </component>
@@ -432,17 +513,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.11854584" />
+      <window_info id="Favorites" order="0" sideWeight="0.30567083" side_tool="true" weight="0.11854584" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.6943292" visible="true" weight="0.11854584" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.18587747" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.080996886" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="2" weight="0.32917964" />
-      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Python Console" order="3" weight="0.32917964" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.17237799" />
-      <window_info anchor="bottom" id="Version Control" order="5" weight="0.32917964" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.21287642" />
+      <window_info anchor="bottom" id="Version Control" order="5" weight="0.73208725" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.3748702" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.3997923" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -452,50 +534,12 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/loading/pyjson.py" />
-    <entry file="file://$PROJECT_DIR$/../../CyberProjectGitHub/server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="201" column="45" lean-forward="true" selection-start-line="201" selection-start-column="45" selection-end-line="201" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/read_and_load/data.json" />
-    <entry file="file://$PROJECT_DIR$/צanager.py" />
-    <entry file="file://$PROJECT_DIR$/users/user_and_passwords" />
-    <entry file="file://$PROJECT_DIR$/accounts/account1.json" />
-    <entry file="file://$PROJECT_DIR$/user_control/tal.json" />
-    <entry file="file://$PROJECT_DIR$/accountstal.json" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/read_and_load/load_user.py" />
-    <entry file="file://$PROJECT_DIR$/users/all_albums.json" />
-    <entry file="file://$PROJECT_DIR$/users/accounts.json" />
-    <entry file="file://$PROJECT_DIR$/accounts/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/accounts/tal.json" />
-    <entry file="file://$PROJECT_DIR$/search/all_albums.json" />
-    <entry file="file://$PROJECT_DIR$/search/all_artists.json" />
-    <entry file="file://$PROJECT_DIR$/read_and_load/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/read_and_load/all_albums.json" />
-    <entry file="file://$PROJECT_DIR$/read_and_load/all_artists.json" />
     <entry file="file://$PROJECT_DIR$/all_artists.json" />
     <entry file="file://$PROJECT_DIR$/all_albums.json" />
-    <entry file="file://$PROJECT_DIR$/utils/generate_path.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/json/decoder.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -518,48 +562,20 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/read_json/read_artists.py" />
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/read_json/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/all_albums.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-651">
-          <caret line="122" column="4" lean-forward="true" selection-start-line="122" selection-start-column="4" selection-end-line="122" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/all_artists.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="154" column="9" lean-forward="true" selection-start-line="154" selection-start-column="9" selection-end-line="154" selection-end-column="9" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/search/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/track.py">
+    <entry file="file://$PROJECT_DIR$/music_objects/track.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/album.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/artist.py">
+    <entry file="file://$PROJECT_DIR$/music_objects/artist.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
@@ -569,96 +585,8 @@
     <entry file="file://$PROJECT_DIR$/accounts/tal3.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/accounts/1.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="53" selection-start-column="53" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user_control/sign_in_up.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="44" column="64" lean-forward="true" selection-start-line="44" selection-start-column="64" selection-end-line="44" selection-end-column="64" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user_control/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/search/search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/read_and_load/load.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="59" column="12" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="66" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user_control/premium_user.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/accounts/tal2.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/accounts/tal1.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/playlist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-874">
-          <caret line="14" column="44" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user_control/user.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user_control/free_user.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="24" selection-start-column="24" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/read_json/read_account.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/read_json/read_albums.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -670,8 +598,252 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/interface.py">
+    <entry file="file://$PROJECT_DIR$/accounts/tal4.json">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/load_metadata/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user_control/accounts.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/tal23.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/tal11.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/new.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/music_objects/playlist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/saved_accounts/tal1.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/saved_accounts/tal2.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/1.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user_control/premium_user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user_control/free_user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user_control/user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/logging/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="1120" selection-start-line="1120" selection-end-line="1120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="916" selection-start-line="916" selection-end-line="916" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/consolemenu/items/function_item.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/consolemenu/console_menu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="362" selection-start-line="362" selection-end-line="362" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/read_json/read_account.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/interface_functions.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loggers/accounts.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/music_objects/album.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/read_and_load/songs_for _load/song_1QxjdVgVrqRRuPM4T0dgWx.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/load_metadata/all_artists.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="1451" column="1" lean-forward="true" selection-start-line="1451" selection-start-column="1" selection-end-line="1451" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/read_and_load/load.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1522">
+          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paths.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/config_read.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/generate_path.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user_control/sign_in_up.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/saved_accounts/tal.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="105" column="5" selection-start-line="105" selection-start-column="1" selection-end-line="105" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console_interface.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rest_interface.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/flask/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="97" column="6" selection-start-line="97" selection-start-column="6" selection-end-line="97" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/load_metadata/all_albums.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="1450" column="31" selection-start-line="1450" selection-start-column="31" selection-end-line="1450" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search/search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="42" column="42" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

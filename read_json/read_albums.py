@@ -2,7 +2,7 @@ import json
 import os
 
 os.chdir('..')
-os.chdir(os.getcwd() + '/storage')
+os.chdir(os.getcwd() + '/load_metadata')
 
 
 # this function returns list of albums from all_artists

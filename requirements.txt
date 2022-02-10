@@ -1,5 +1,16 @@
 ansiwrap==0.8.4
+click==8.0.3
+colorama==0.4.4
 console-menu==0.7.0
+ConsoleMenu==1.0.1
 filehandle==0.0.9
+Flask==2.0.2
+importlib-metadata==4.10.1
+itsdangerous==2.0.1
+Jinja2==3.0.3
+MarkupSafe==2.0.1
 six==1.16.0
 textwrap3==0.9.2
+typing-extensions==4.0.1
+Werkzeug==2.0.3
+zipp==3.7.0

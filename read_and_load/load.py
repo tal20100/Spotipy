@@ -3,24 +3,25 @@ import os
 import glob
 import pprint
 
-from album import Album
-from artist import Artist
-from track import Track
+from music_objects.album import Album
+from music_objects.artist import Artist
+from music_objects.track import Track
 
-# Reading the files from the folder and loading the json object into my custom python objects.
+# Reading the files from the folder and loading the json object into my custom python music_objects.
 
 trackList = []
 loaded_albums = []  # list of albums
 loaded_artists = []  # list of artists
-# todo: config path
-path = 'C:/Users/Tal/Desktop/Course/Spotipy/songs'
+# todo: path config
+path = 'songs_for _load'
 for filename in glob.glob(os.path.join(path, '*.json')):  # only process .JSON files in folder.
     with open(filename, encoding='utf-8', mode='r') as currentFile:
         data = currentFile.read().replace('\n', '')
         single_track = json.loads(data)['track']
         if single_track not in trackList:
             trackList.append(single_track)
-currentFile.close()
+    currentFile.close()
+
 
 
 # These functions gets an id and returns the album/artist that has this id
@@ -38,7 +39,7 @@ def artist_in_loaded(artist_id):
     return -1
 
 
-# all the tracks loaded as objects
+# all the tracks loaded as music_objects
 track_obj_list = []
 for track in trackList:
     artists = []
@@ -62,9 +63,8 @@ for track in trackList:
             loaded_albums.append(new_album)
 
 
-
 os.chdir('..')
-os.chdir(os.getcwd() + '/storage')
+os.chdir(os.getcwd() + '/load_metadata')
 
 with open('all_artists.json', 'w') as file:
     file.write('[')
@@ -83,22 +83,3 @@ with open('all_albums.json', 'w') as file:
     file.write(']')
 file.close()
 
-
-# loaded_albums is a list of albums that each album is an object and can be transformed into dict
-def main():
-    pp = pprint.PrettyPrinter(depth=6)
-    # pp.pprint(trackList[:4])
-    for artist in loaded_artists:
-        pp.pprint(artist.__dict__)
-    #for album in loaded_albums:
-    #    pp.pprint(album.__dict__)
-    # for album in loaded_albums:
-    # pp = pprint.PrettyPrinter(depth=6)
-    # pp.pprint(loaded_albums[6].__dict__)
-
-
-# print(trackList)
-
-
-if __name__ == '__main__':
-    main()

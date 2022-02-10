@@ -16,7 +16,7 @@ def read_user(username):
 
     playlists = []
     for playlist in user_dict["playlists"]:
-        from playlist import Playlist
+        from music_objects.playlist import Playlist
         playlists.append(Playlist(playlist["name"], playlist["tracks"]))
     if user_dict["account_type"] == 'free':
         loaded_user = FreeUser(user_dict["username"], user_dict["password"], user_dict["account_type"], playlists)

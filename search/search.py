@@ -2,13 +2,12 @@ import json
 import os
 import pprint
 
-os.chdir('..')
-os.chdir(os.getcwd() + '/storage')
+
 pp = pprint.PrettyPrinter(depth=6)
 
 
 def get_all_artists():
-    with open('all_artists.json', encoding='utf-8', mode='r') as artists_file:
+    with open('../load_metadata/all_artists.json', encoding='utf-8', mode='r') as artists_file:
         artists_list = json.loads(artists_file.read())
         for artist in artists_list:
             print(artist["name"])
@@ -16,7 +15,7 @@ def get_all_artists():
 
 
 def get_albums_by_artist(artist_id):
-    with open('all_artists.json', encoding='utf-8', mode='r') as artists_file:
+    with open('../load_metadata/all_artists.json', encoding='utf-8', mode='r') as artists_file:
         artists_list = json.loads(artists_file.read())
         for artist in artists_list:
             if artist_id == artist["id"]:
@@ -29,7 +28,7 @@ def get_most_popular(artist_id):
     # open artist file, save all albums id's in a list and then open all_albums and search for albums with id that is on
     # the list, store them in all_artist_songs list, sort it and print top 10
     artist_albums = []
-    with open('all_artists.json', encoding='utf-8', mode='r') as artists_file:
+    with open('../load_metadata/all_artists.json', encoding='utf-8', mode='r') as artists_file:
         artists_list = json.loads(artists_file.read())
         for artist in artists_list:
             if artist_id == artist["id"]:
@@ -41,7 +40,7 @@ def get_most_popular(artist_id):
 
 
 def get_tracks_from_album(album_id):
-    with open('all_albums.json', encoding='utf-8', mode='r') as albums_file:
+    with open('../load_metadata/all_albums.json', encoding='utf-8', mode='r') as albums_file:
         albums_list = json.loads(albums_file.read())
         for album in albums_list:
             if album["id"] == album_id:
@@ -53,9 +52,13 @@ def get_tracks_from_album(album_id):
 
 
 def main():
-    # get_all_artists()
-    # get_albums_by_artist('0zFvzQ4P6i9vu7Q2Kmmi3m')
-    # get_most_popular('3MZsBdqDrRTJihTHQrO6Dq')
+    print(" ------- all artists ------- ")
+    get_all_artists()
+    print(" ------- albums by artist ------- ")
+    get_albums_by_artist('0zFvzQ4P6i9vu7Q2Kmmi3m')
+    print(" ------- most popular ------- ")
+    get_most_popular('3MZsBdqDrRTJihTHQrO6Dq')
+    print(" ------- tracks from album ------- ")
     get_tracks_from_album('34GQP3dILpyCN018y2k61L')
 
 

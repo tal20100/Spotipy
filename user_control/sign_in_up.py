@@ -1,9 +1,14 @@
 import json
 import os
-
+import logging
 from read_json.read_account import read_user
+from user_control.free_user import FreeUser
+from user_control.premium_user import PremiumUser
 from utils import generate_path
-from user_control.user import User
+
+#loggers_path = config_read.config_read_path()
+path = "C:/Users/Tal/Desktop/Course/SpotipyProj/loggers/saved_accounts.log"
+logging.basicConfig(filename=path, level=logging.INFO, format='%(asctime)s:%(levelname)s:%(message)s')
 
 
 def login():
@@ -16,9 +21,10 @@ def login():
     if user.password != password:
         print(f"""Wrong password for username {username}""")
     print("Logged in successfully")
+    logging.info(f""":  User {username} has logged in """)
 
 
-# create an account (user instance) and write it in the accounts file
+# create an account (user instance) and write it in the saved_accounts file
 def register():
     username = input("Enter username: ")
     complete_path = generate_path.generate_user_path(username)
@@ -38,21 +44,15 @@ def register():
     if account_type != '1' and account_type != '2':
         print("Invalid account type, try again")
         register()
-    if account_type == '1':
-        account_type = "free"
-    else:
-        account_type = "premium"
-    new_user = User(username, password, account_type, playlists=[])
+    if account_type == "free":
+        new_user = FreeUser(username, password, account_type, playlists=[])
+    else:  # premium
+        new_user = PremiumUser(username, password, account_type, playlists=[])
 
     # create file
     with open(complete_path, 'w') as json_file:
         json.dump(new_user.__dict__, json_file, indent=4, separators=(',', ': '))
+    print("User created successfully!")
+    logging.info(f""":  New {new_user.account_type} user added |username: {username} password: {password}|""")
 
 
-def main():
-    register()
-    # login()
-
-
-if __name__ == '__main__':
-    main()
