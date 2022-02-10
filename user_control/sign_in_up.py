@@ -6,8 +6,7 @@ from user_control.free_user import FreeUser
 from user_control.premium_user import PremiumUser
 from utils import generate_path
 
-#loggers_path = config_read.config_read_path()
-path = "C:/Users/Tal/Desktop/Course/SpotipyProj/loggers/saved_accounts.log"
+path = "../loggers/saved_accounts.log"
 logging.basicConfig(filename=path, level=logging.INFO, format='%(asctime)s:%(levelname)s:%(message)s')
 
 
@@ -22,6 +21,7 @@ def login():
         print(f"""Wrong password for username {username}""")
     print("Logged in successfully")
     logging.info(f""":  User {username} has logged in """)
+    return username
 
 
 # create an account (user instance) and write it in the saved_accounts file
@@ -49,10 +49,11 @@ def register():
     else:  # premium
         new_user = PremiumUser(username, password, account_type, playlists=[])
 
-    # create file
+    # creates a new user file
     with open(complete_path, 'w') as json_file:
         json.dump(new_user.__dict__, json_file, indent=4, separators=(',', ': '))
     print("User created successfully!")
     logging.info(f""":  New {new_user.account_type} user added |username: {username} password: {password}|""")
 
-
+# login()
+# register()

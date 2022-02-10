@@ -44,13 +44,5 @@ def update_user_file(username, playlist):
     complete_path = generate_path.generate_user_path(username)
     with open(complete_path, 'w') as file:
         json.dump(updated_user.__dict__, file, indent=4, separators=(',', ': '))
+    print(updated_user)
     file.close()
-
-
-def main():
-    t = Track("id24946830", "flower boy", None, 439546)
-    create_playlist('tal2', [t])
-
-
-if __name__ == '__main__':
-    main()
