@@ -20,3 +20,7 @@ loggerss - each login and new account creation, a log is written in saved_accoun
 load_metadata - stores
 
 utils - random functions all the albums and all the artists from the load so it can be used later when searching
+
+
+
+*Exeption handeling and user interface is missing
