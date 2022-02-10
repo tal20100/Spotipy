@@ -1,9 +1,7 @@
-from abc import ABC
+from abc import ABC, abstractmethod
 
 
 class User(ABC):
+    @abstractmethod
     def __init__(self, username, password, account_type, playlists: []):
-        self.username = username
-        self.password = password
-        self.account_type = account_type
-        self.playlists = playlists
+        pass

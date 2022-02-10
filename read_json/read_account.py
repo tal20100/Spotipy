@@ -2,6 +2,9 @@ import json
 
 
 # this function gets a username and returns it as an object by reading it from its account file
+from user_control.free_user import FreeUser
+from user_control.premium_user import PremiumUser
+
 
 def read_user(username):
     from utils.generate_path import generate_user_path
@@ -15,9 +18,10 @@ def read_user(username):
     for playlist in user_dict["playlists"]:
         from playlist import Playlist
         playlists.append(Playlist(playlist["name"], playlist["tracks"]))
-    from user_control.user import User
-    loaded_user = User(user_dict["username"], user_dict["password"], user_dict["account_type"], playlists)
-
+    if user_dict["account_type"] == 'free':
+        loaded_user = FreeUser(user_dict["username"], user_dict["password"], user_dict["account_type"], playlists)
+    else:
+        loaded_user = PremiumUser(user_dict["username"], user_dict["password"], user_dict["account_type"], playlists)
     return loaded_user
 
 

@@ -14,7 +14,7 @@ def read_albums(artist_id):
         if artist["id"] == artist_id:
             print(artist["albums"])
     # the read_json data is stored as string, ill use the info to create an object
-    #print(artists)
+    # print(artists)
 
 
 def main():

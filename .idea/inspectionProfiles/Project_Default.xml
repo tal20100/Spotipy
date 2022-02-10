@@ -20,6 +20,7 @@
         <list>
           <option value="track.Track.__getitem__" />
           <option value="read_and_load.load.JSON" />
+          <option value="list.join" />
         </list>
       </option>
     </inspection_tool>
