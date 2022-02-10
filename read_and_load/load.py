@@ -45,17 +45,16 @@ for track in trackList:
     album_id = track["album"]["id"]
     for artist in track["artists"]:
         current_artist = Artist(artist["id"], artist["name"], [])
-        if artist_in_loaded(artist["id"]) == -1:
-            loaded_artists.append(current_artist)
         artists.append(current_artist)
         if album_in_loaded(album_id) != -1:  # album is already loaded
             track_obj_list.append(
                 Track(track["id"], album_in_loaded(album_id), artists, track["popularity"]))
             album_in_loaded(album_id).tracks.append(track)  # add track to the album
             album_in_loaded(album_id).num_of_songs = album_in_loaded(album_id).num_of_songs + 1
+            current_artist.albums.append(album_in_loaded(album_id))
         else:  # album is unknown
             loaded_albums.append(Album(album_id, tracks=[], num_of_songs=1))
-            album_in_loaded(album_id).tracks.append(track)
+            album_in_loaded(album_id).tracks.append(Track(track["id"], album_in_loaded(album_id), artists, track["popularity"]))
 
 
 os.chdir('..')
